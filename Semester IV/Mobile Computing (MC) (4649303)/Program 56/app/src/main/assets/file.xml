@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Customer>
+    <Game>
+        <Game-id>1</Game-id>
+        <Game-name>Super Mario</Game-name>
+        <Game-price>300</Game-price>
+    </Game>
+
+    <Game>
+        <Game-id>2</Game-id>
+        <Game-name>Grand Theft Auto VI</Game-name>
+        <Game-price>5000</Game-price>
+    </Game>
+
+    <Game>
+        <Game-id>3</Game-id>
+        <Game-name>Player Unknown's Battle Ground</Game-name>
+        <Game-price>10000</Game-price>
+    </Game>
+
+
+    <Game>
+        <Game-id>4</Game-id>
+        <Game-name>Sniper 2 Ghost Worrier</Game-name>
+        <Game-price>1000</Game-price>
+    </Game>
+
+    <Game>
+        <Game-id>5</Game-id>
+        <Game-name>Sniper 3 Ghost Worrier</Game-name>
+        <Game-price>1000</Game-price>
+    </Game>
+</Customer>

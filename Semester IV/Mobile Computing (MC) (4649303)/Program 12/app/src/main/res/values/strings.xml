@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Program 12</string>
+    <string-array name="county">
+        <item>--Select County--</item>
+        <item>India</item>
+        <item>Japan</item>
+        <item>Pakistan</item>
+        <item>United Kingdom</item>
+        <item>United State Of America</item>
+    </string-array>
+</resources>

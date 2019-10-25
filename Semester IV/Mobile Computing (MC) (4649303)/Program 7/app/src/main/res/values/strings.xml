@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Program 7</string>
+    <string name="username">Enter username...</string>
+    <string name="password">Enter password...</string>
+    <string name="user">Aditya</string>
+    <string name="pwd">Password</string>
+</resources>

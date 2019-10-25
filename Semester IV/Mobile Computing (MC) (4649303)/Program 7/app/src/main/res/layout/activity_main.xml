@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Page"
+        android:textSize="50dp"
+        android:fontFamily="casual"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/username"
+        style="@style/AppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:textColorLink="@android:color/black"
+        android:textSize="20dp"
+        android:paddingTop="50dp"/>
+    <EditText
+        android:id="@+id/password"
+        style="@style/AppTheme"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColorLink="@android:color/black"
+        android:textSize="20dp"
+        android:paddingTop="50dp"
+        android:layout_marginBottom="10dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        style="@style/AppTheme"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:text="Submit"/>
+
+</LinearLayout>

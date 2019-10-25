@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+
+      "name": "Aditya Bhalsod",
+      "email": "adiyabhalsod99@gmail.com",
+      "contact": {
+        "mobile": "+91 8153968004"
+      }
+    },
+    {
+      "name": "David Gutta",
+      "email": "davidjonash007@gmail.com",
+      "contact": {
+        "mobile": "+91 6351542963"
+      }
+    },
+    {
+      "name": "Mitu Jani",
+      "email": "mituljani@gmail.com",
+      "contact": {
+        "mobile": "+91 9876543210"
+      }
+    }
+
+  ]
+}
