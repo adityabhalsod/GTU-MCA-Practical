@@ -1,4 +1,4 @@
-# GTU_MCA_ALL
+# GTU_mca_prectical
 New Prectical All Subject 2017-2019 Sem-1 to Sem-5
 
 
@@ -33,7 +33,7 @@ Year 2 :
 
 Year 3 :
 - Semster 5 :
-	- Big Data Analytics (BDA) (4659306)
+	- EL_Big Data Analytics (BDA) (4659306)
 	- Design and Analysis of Algorithms (DAA) (4659301)
 	- Machine Learning (ML) (4659302)
 	
