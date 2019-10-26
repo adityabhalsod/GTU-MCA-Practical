@@ -1,4 +1,4 @@
-# GTU_mca_prectical
+# GTU_mca_practical
 New Prectical All Subject 2017-2019 Sem-1 to Sem-5
 
 
