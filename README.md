@@ -10,18 +10,18 @@ Here, Gujarat Technical University (At. Ahmedabad) Master of Computer Applicatio
 
 Year 1 :
 - Semster 1 :
-	- Fundamentals of Programming – I (3610001)
+	- Fundamentals of Programming – I (FOP-I) (3610001)
 	- Fundamental of Web (FoW) (3610002)
 
 - Semster 2 :
-	- Fundamentals of Programming - II (3620001)
+	- Fundamentals of Programming - II (FOP-II) (3620001)
 	- Data Structures (DS) (3620002)
 	- Operating Systems (OS) (3620003)
-	- Object Oriented - Unified Modeling (3620004)
+	- Object Oriented - Unified Modeling (OOUM) (3620004)
 
 Year 2 :
 - Semster 3 :
-	- Basic Mathematics (4639301)
+	- Basic Mathematics (BM) (4639301)
 	- Programming in JAVA (4639302)
 	- Database Management Systems (DBMS) (4639303)
 	- Programming in Python (4639304)
