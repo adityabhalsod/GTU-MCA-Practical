@@ -1,0 +1,1 @@
+SELECT * FROM   employee WHERE  month(birth_date) = month(CURRENT_DATE);

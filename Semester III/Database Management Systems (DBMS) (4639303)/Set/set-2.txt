@@ -1,0 +1,102 @@
+select * from t1_name left join t2_name ON t1_name.id=t2_name.id UNION
+
+select * from t1_name right join t2_name ON t1_name.id=t2_name.id
+
+crossjoin
+
+select * from table1,table2;
+
+
+
+create table employee(emp_id varchar(10),emp_name varchar (30),birth_date date,gender varchar(10),dept_no int (10),address varchar (50),age int(10), designation varchar(10),salary varchar(10),experience varchar (50),email varchar(50), primary key(emp_id),FOREIGN KEY (dept_no) REFERENCES department(dept_no))
+
+insert into department
+
+(dept_no,dept_name,location) values 
+
+(1,'production','ahmedabad');
+
+alter table employee alter column age like (> 18);
+
+create table department(dept_no 
+
+int(10),dept_name varchar
+
+(30),location varchar(30), primary 
+
+key(dept_no));
+
+alter table employee add FOREIGN KEY dept_no REFERENCES department(dept_no);
+
+
+alter table employee add column dept_no int(10) FOREIGN KEY as REFERENCES department(dept_no);
+
+insert into employee(emp_id,emp_name,birth_date,age,address,email,gender,designation,experience,dept_no,salary) values (101,'paresh','1995/06/09',22,'ahmedabad','kjain8255@gmail.com','male','executive',2,1,1000)
+
+ALTER TABLE employee
+ADD CONSTRAINT email  CHECK(email LIKE '%___@___%.__%');
+
+select emp_id,emp_name,designation,dept_name,location from employee e,department d where e.dept_no=d.dept_no
+
+ALTER TABLE employee
+ADD FOREIGN KEY (dept_no) 
+REFERENCES department(dept_no);
+
+ALTER TABLE employee
+ADD CONSTRAINT designation check('manager','clerk','leader','analyst','designer','coder','tester');
+
+ALTER TABLE employee ADD CONSTRAINT gender check('male'or'female')
+
+
+
+11)  ALTER TABLE department add 	UNIQUE(dept_name);
+12) ALTER TABLE employee ADD 	CONSTRAINT gender 		check('male'or'female')
+
+13) insert into employee
+
+(emp_id,emp_name,birth_date,age,
+
+address,email,gender,designation,
+
+experience,dept_no,salary) values 
+
+(104,'rajan','1995/06/10',25,'ahm
+
+edabad','kjain8255@gmail.com','m
+
+ale','executive',2,1,20000);
+
+insert into department
+
+(dept_no,dept_name,location) 
+
+values 
+
+(2,'manager','vadodara');
+
+14) create table employee(emp_id varchar(10),emp_name varchar (30),birth_date 	date,gender varchar(10),dept_no int (10),address varchar (50),age int(10), 	designation 	varchar(10),salary varchar(10),experience varchar (50),email varchar(50), 	primary key	(emp_id),FOREIGN KEY (dept_no) REFERENCES department(dept_no))
+
+15)  select * from employee 		ORDER by emp_id asc;
+      select * from department 	ORDER by dept_no asc;
+16)  DELETE from department WHERE 	'location'="ahmedabad";
+
+17)select * from employee WHERE  gender='female';
+18)select emp_name from employee e , department d where d.dept_name='manager';
+19)select emp_name from employee where salary<5000 and salary>2000;
+20)SELECT emp_name,designation FROM employee where gender='female' ORDER BY 	emp_id ASC;
+21)select emp_name from employee
+    where (emp_name like 'A%' 
+      and emp_name like '%A');
+22)SELECT emp_name,salary FROM employee
+	WHERE salary = (SELECT MIN(salary) FROM employee);
+23)UPDATE Employee e,department d SET  salary = (salary / 100) * 10 + salary WHERE 		d.dept_name='it';
+24)select count(*) from employee where dept_no=(select dept_no from department where 	dept_name='it')
+25)SELECT * FROM   employee
+	WHERE  month(birth_date) = month(CURRENT_DATE)
+26)select * from employee where dept_no=(select dept_no from department where 	dept_name='mba')
+27)SELECT * FROM employee where experience<1;
+28)SELECT * FROM employee WHERE dept_no=(select dept_no from department where dept_name='it')
+29)alter table department modify dept_no AUTO_INCREMENT;
+30)Select * From Department
+  Left Outer Join Employee ON employee.dept_no = department.dept_no
+ Where employee.dept_no IS NULL

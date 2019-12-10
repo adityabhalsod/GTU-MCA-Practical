@@ -1,0 +1,1 @@
+select * from employee order by emp_id asc;

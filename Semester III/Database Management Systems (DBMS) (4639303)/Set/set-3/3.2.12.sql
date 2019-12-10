@@ -1,0 +1,1 @@
+alter table EMPLOYEE modify gender enum('male','female');

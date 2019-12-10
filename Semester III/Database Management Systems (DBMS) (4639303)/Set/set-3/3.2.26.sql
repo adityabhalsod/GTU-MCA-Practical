@@ -1,0 +1,1 @@
+select * from employee where dept_no=(select dept_no from department where 	dept_name='mba');

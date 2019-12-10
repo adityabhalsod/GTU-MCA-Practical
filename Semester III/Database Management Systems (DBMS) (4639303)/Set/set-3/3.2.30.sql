@@ -1,0 +1,1 @@
+Select * From Department Left Outer Join Employee ON employee.dept_no = department.dept_no Where employee.dept_no IS NULL;

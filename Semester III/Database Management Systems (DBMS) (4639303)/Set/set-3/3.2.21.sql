@@ -1,0 +1,1 @@
+select emp_name from employee where emp_name like 'A%A';

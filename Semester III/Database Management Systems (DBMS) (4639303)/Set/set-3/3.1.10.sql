@@ -1,0 +1,1 @@
+update department set dept_name='IT' where dept_name='EDP';

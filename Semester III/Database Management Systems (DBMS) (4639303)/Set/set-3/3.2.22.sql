@@ -1,0 +1,1 @@
+select emp_name,min(salary) from employee;

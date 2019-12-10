@@ -1,0 +1,1 @@
+select * from department where dept_name like 'A%';	

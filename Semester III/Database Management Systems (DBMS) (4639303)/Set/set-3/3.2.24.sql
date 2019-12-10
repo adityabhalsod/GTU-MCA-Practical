@@ -1,0 +1,1 @@
+select count(*) from employee where dept_no=(select dept_no from department where dept_name='it');

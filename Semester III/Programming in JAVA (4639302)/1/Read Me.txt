@@ -1,0 +1,55 @@
+Step 1:- Go to this link -->(http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+
+
+Step 2:- Choice your system Like Linux,MacX OS,Windows and after choice 32bit and 64bit package and then download-->Java SE Development Kit 8u172 Or Java SE Development Kit 8u171 
+
+
+Step 3:- Complate Installing... Process..
+
+
+-----Set Windows OS Envoirment Variables-----
+
+
+Step 4:- Open System Properties Left side advanced system settings click down side Environment Variables under User Variables for %username% Click New and Set
+
+______________________________________________________________________________________
+
+Variable name : JAVA_HOME
+Variable value: C:\Program Files\Java\jdk1.8.0_172
+______________________________________________________________________________________
+
+Step 5:- Ok after then click new in value set in Dialog
+
+______________________________________________________________________________________
+
+Variable name : PATH
+Variable value: C:\Program Files\Java\jdk1.8.0_172\bin;%JAVA_HOME\bin;
+______________________________________________________________________________________
+
+Step 6:- Open New cmd type javac -version
+
+If print ---> javac 1.8.0_172
+
+Your Environment Variables Succussfully Set....
+
+-----Wriete a first program and run --> Print Hello world using java language-----
+
+Step 7:- Open notepad or notepad++ or sublime text choice your editor paste or write code 
+
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World");
+    }
+}
+
+Step 8:- Save file in your directory 
+
+
+Step 9:- Now open cmd tyep cd %"your java program directory"% then enter 
+
+
+Step 10:- tyep cmd javac %your java program filename%.java after then enter java %your java program filename%(without type extensions) and run java program
+
+
+Enjoy ;)

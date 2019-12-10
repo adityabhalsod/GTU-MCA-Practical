@@ -1,0 +1,1 @@
+select emp_name,designation from employee where gender="female" order by emp_name,designation desc;

@@ -1,0 +1,36 @@
+1)
+CREATE TABLE DEPARTMENT(
+dept_no int(3),
+dept_name varchar(30),
+location varchar(50) );
+
+2) describe department;
+
+3)
+insert into department(dept_no,dept_name,location)values(10,'Account','NY');
+insert into department(dept_no,dept_name,location)values(20,'HR','NY');
+
+insert into department(dept_no,dept_name,location)values(30,'Production','DL');
+
+insert into department(dept_no,dept_name,location)values(40,'Sales','NY');
+
+insert into department(dept_no,dept_name,location)values(50,'EDP','MU');
+
+insert into department(dept_no,dept_name,location)values(60,'TRG','');
+
+insert into department(dept_no,dept_name,location)values(110,'RND','AH');
+
+
+4) select * from department;
+
+5)select * from department where location='NY';
+
+6)select * from department where dept_no='10';
+
+7)select * from department where dept_name LIKE 'A%';
+
+8)select * from department where dept_no between 1 and 100;
+
+9)delete from department where dept_name='TRG';
+
+10)update department set dept_name="IT" where dept_name='EDP';

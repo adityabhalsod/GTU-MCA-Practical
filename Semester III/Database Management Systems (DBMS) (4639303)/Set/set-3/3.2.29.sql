@@ -1,0 +1,1 @@
+alter table department modify dept_no AUTO_INCREMENT;
