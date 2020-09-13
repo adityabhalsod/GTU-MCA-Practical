@@ -1,13 +1,6 @@
 # GTU-MCA-Practical
 New Prectical All Subject 2017-2019 Sem-1 to Sem-5
  
-[![Apache License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]  <a href="https://github.com/AdityaBhalsod/GTU-MCA-Practical"><img alt="GitHub stars" src="https://img.shields.io/github/stars/AdityaBhalsod/GTU-MCA-Practical?style=social"></a> <a href="https://github.com/AdityaBhalsod/GTU-MCA-Practical"><img alt="GitHub followers" src="https://img.shields.io/github/followers/AdityaBhalsod?color=Black&label=Follow&style=social"></a>
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/AdityaBhalsod/
-
-
-
 Hello 
 Dear, all my friend 
 
